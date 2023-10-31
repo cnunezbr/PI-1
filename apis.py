@@ -4,14 +4,14 @@ import pyarrow as pa  # importo modulo pyarrow.parquet.ParquetFile
 import pyarrow.parquet as pq
 
 # Datos a usar
-df_reviews = pd.read_parquet("Parquet/df_reviews.parquet")
-df_gastos_items = pd.read_parquet("Parquet/df_gastos_items.parquet")
-df_genre_ranking = pd.read_parquet("Parquet/df_genre_ranking.parquet")
-df_playtime_forever = pd.read_parquet("Parquet/df_playtime_forever.parquet")
-df_items_developer = pd.read_parquet("Parquet/df_items_developer.parquet")
-piv_norm = pd.read_parquet("Parquet/piv_norm.parquet")
-item_sim_df = pd.read_parquet("Parquet/item_sim_df.parquet")
-user_sim_df = pd.read_parquet("Parquet/user_sim_df.parquet")
+df_reviews = pd.read_parquet("df_reviews.parquet")
+df_gastos_items = pd.read_parquet("df_gastos_items.parquet")
+df_genre_ranking = pd.read_parquet("df_genre_ranking.parquet")
+df_playtime_forever = pd.read_parquet("df_playtime_forever.parquet")
+df_items_developer = pd.read_parquet("df_items_developer.parquet")
+piv_norm = pd.read_parquet("piv_norm.parquet")
+item_sim_df = pd.read_parquet("item_sim_df.parquet")
+user_sim_df = pd.read_parquet("user_sim_df.parquet")
 
 
 def presentacion():
